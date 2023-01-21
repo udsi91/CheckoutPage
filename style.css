@@ -78,4 +78,9 @@ img {
 .calc {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
+}
+
+.footer {
+  margin-bottom: 0.5rem;
 }
