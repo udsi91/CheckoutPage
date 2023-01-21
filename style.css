@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 15px;
+  margin-right: 2rem;
+  width: 250px;
+}
+
+.items {
+  background-color: lightgrey;
+  width: 35%;
+  padding: 1rem;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dollar {
+  color: orangered;
+}
+.old-price {
+  color: black;
+}
+
+.quantity {
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.2rem;
+  border-radius: 10px;
+}
+.minus {
+  width: 20px;
+  text-align: center;
+  background-color: rgb(171, 164, 164);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.plus {
+  width: 20px;
+  text-align: center;
+  background-color: rgb(171, 164, 164);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-remove {
+  background-color: tomato;
+  padding: 0.3rem;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+}
